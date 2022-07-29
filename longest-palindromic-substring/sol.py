@@ -7,8 +7,6 @@ Pseudo code:
     index of the corresponding digit/letter in string input.
 2. Find even longest palindromic substring
 3. Find odd longest palindromic substring
-4. Even palindromic substring dont exist nor odd palindromic substring. Then
-    find the letter/digit appear twice in a row.
 """
 
 class Test:
