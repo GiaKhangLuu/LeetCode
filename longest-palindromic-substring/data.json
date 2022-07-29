@@ -1,0 +1,34 @@
+[
+    {
+        "input": "babad",
+        "output": "bab"
+    },
+    {
+        "input": "cbbd",
+        "output": "bb"
+    },
+    {
+        "input": "a",
+        "output": "a"
+    },
+    {
+        "input": "aacabdkacaa",
+        "output": "aca"
+    },
+    {
+        "input": "aa",
+        "output": "aa"
+    },
+    {
+        "input": "ac",
+        "output": "a"
+    },
+    {
+        "input": "ccc",
+        "output": "ccc"
+    },
+    {
+        "input": "azwdzwmwcqzgcobeeiphemqbjtxzwkhiqpbrprocbppbxrnsxnwgikiaqutwpftbiinlnpyqstkiqzbggcsdzzjbrkfmhgtnbujzszxsycmvipjtktpebaafycngqasbbhxaeawwmkjcziybxowkaibqnndcjbsoehtamhspnidjylyisiaewmypfyiqtwlmejkpzlieolfdjnxntonnzfgcqlcfpoxcwqctalwrgwhvqvtrpwemxhirpgizjffqgntsmvzldpjfijdncexbwtxnmbnoykxshkqbounzrewkpqjxocvaufnhunsmsazgibxedtopnccriwcfzeomsrrangufkjfzipkmwfbmkarnyyrgdsooosgqlkzvorrrsaveuoxjeajvbdpgxlcrtqomliphnlehgrzgwujogxteyulphhuhwyoyvcxqatfkboahfqhjgujcaapoyqtsdqfwnijlkknuralezqmcryvkankszmzpgqutojoyzsnyfwsyeqqzrlhzbc",
+        "output": "sooos"
+    }
+]
