@@ -1,0 +1,78 @@
+[
+    {
+        "input": 1, 
+        "expectation": "I"
+    },
+    {
+        "input": 5,
+        "expectation": "V"
+    },
+    {
+        "input": 10,
+        "expectation": "X"
+    },
+    {
+        "input": 50,
+        "expectation": "L"
+    },
+    {
+        "input": 100,
+        "expectation": "C"
+    },
+    {
+        "input": 500,
+        "expectation": "D"
+    },
+    {
+        "input": 1000,
+        "expectation": "M"
+    },
+    {
+        "input": 2,
+        "expectation": "II"
+    },
+    {
+        "input": 12,
+        "expectation": "XII"
+    },
+    {
+        "input": 27,
+        "expectation": "XXVII"
+    },
+    {
+        "input": 4,
+        "expectation": "IV"
+    },
+    {
+        "input": 9,
+        "expectation": "IX"
+    },
+    {
+        "input": 40,
+        "expectation": "XL"
+    },
+    {
+        "input": 90,
+        "expectation": "XC"
+    },
+    {
+        "input": 400,
+        "expectation": "CD"
+    },
+    {
+        "input": 900,
+        "expectation": "CM"
+    },
+    {
+        "input": 3,
+        "expectation": "III"
+    },
+    {
+        "input": 58,
+        "expectation": "LVIII"
+    },
+    {
+        "input": 1994,
+        "expectation": "MCMXCIV"
+    }
+]
