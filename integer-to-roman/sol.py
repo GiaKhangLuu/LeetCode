@@ -8,49 +8,6 @@ color_code = {'green': '\033[92m',
 
 class Solution:
 
-#    def intToRoman(self, num):
-#        
-#        values = [1, 5, 10, 50, 100, 500, 1000]
-#        symbols = ['I', 'V', 'X', 'L', 'C', 'D', 'M']
-#
-#        rs = ''
-#        quotient = 0
-#
-#        while num != 0: 
-#            print(num)
-#
-#            # Borrowing
-#            if num in values:
-#                rs += symbols[values.index(num)]
-#                return rs
-#
-#            for value in values[::-1]:
-#                temp = num
-#                temp += value
-#
-#                if temp in values:
-#                    rs += symbols[values.index(temp)]
-#                    symbol = symbols[values.index(value)]
-#                    rs = "".join([symbol, rs])
-#
-#                    return rs
-#
-#            # Dividing
-#            for divisor in values[::-1]:
-#                temp = num % divisor
-#                if temp != num:
-#                    quotient = math.floor(num / divisor)
-#                    num = temp
-#                    rs += quotient * symbols[values.index(divisor)]
-#
-#                    break
-#
-#
-##        if quotient != 1:
-##            rs += (quotient - 1) * 'I'
-#
-#        return rs
-
     def intToRoman(self, num):
 
         values = [1, 5, 10, 50, 100, 500, 1000]
@@ -63,43 +20,39 @@ class Solution:
         while remainder != 0:
             digit_count = len(str(remainder))
             divisor = int('1' + ((digit_count - 1) * '0'))
-            elements.append(math.floor(remainder / divisor) * divisor)
+            ele = math.floor(remainder / divisor) * divisor
+            elements.append(ele)
             remainder = remainder % divisor
 
-        for ele in elements:
-            symbol_ele = ''
-            # Borrowing
-            if ele in values:
-                symbol_ele += symbols[values.index(ele)]
-                symbol_elements.append(symbol_ele)
-                continue
+            symbol_ele = ''  
 
-            for value in values[::-1]:
+            # Borrowing
+            clone_values = values.copy()
+            clone_values.insert(0, 0)
+            for value in clone_values:
                 temp = ele
                 temp += value
-
                 if temp in values:
-                    symbol_ele += symbols[values.index(temp)]
-                    symbol_borrowing = symbols[values.index(value)]
-                    symbol_ele = "".join([symbol_borrowing, symbol_ele])
+                    symbol_ele = symbols[values.index(temp)]
+                    if value != 0:
+                        symbol_borrowing = symbols[values.index(value)]
+                        symbol_ele = "".join([symbol_borrowing, symbol_ele])
                     symbol_elements.append(symbol_ele)
-                    continue
-                
-            if symbol_ele != '':               
-                continue
+                    break
 
+            if symbol_ele != '':
+                continue
+            
             # Dividing
-            num = ele
-            for divisor in values[::-1]:
-                temp = num % divisor
-                if temp != num:
-                    quotient = math.floor(num / divisor)
-                    num = temp
-                    symbol_ele += quotient * symbols[values.index(divisor)]
+            divident = ele
+            for value in values[::-1]:
+                temp = divident % value
+                if temp != divident:
+                    quotient = math.floor(divident / value)
+                    divident = temp
+                    symbol_ele += quotient * symbols[values.index(value)]
 
             symbol_elements.append(symbol_ele)
-
-
         rs = "".join(symbol_elements)
         return rs
 
