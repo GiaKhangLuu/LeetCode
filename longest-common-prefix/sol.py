@@ -13,24 +13,32 @@ class Solution:
         rs = ""
         strs_len = len(strs)
 
-        if strs_len == 0 or strs_len == 1:
+        if strs_len == 0:
             return ""
 
-        base = strs[0]
-        prefix = "".join([base[i] for i in range(prefix_length + 1)])
+        if strs_len == 1:
+            return strs[0]
 
-        while prefix_length != base:
+        base = strs[0]
+        prefix = "".join([base[i] for i in range(prefix_length + 1)]) if base != "" else ""
+
+        if prefix == "":
+            return ""
+
+        while prefix_length < len(base):
+            prefix = "".join([base[i] for i in range(prefix_length + 1)])
             for idx in range(1, strs_len):
                 word = strs[idx]
+
                 char_list = word.split(prefix)
     
-                if char_list[0] != "":
+                if char_list[0] != "" or word == "":
                     return rs
     
                 if idx == (strs_len - 1):
                     rs = prefix
                     prefix_length += 1
-                    prefix = "".join([base[i] for i in range(prefix_length + 1)])
+                    
 
         return base
 
