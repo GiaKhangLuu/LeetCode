@@ -1,0 +1,9 @@
+[
+    {
+        "input": [
+            ["MyStack", "push", "push", "top", "pop", "empty"],
+            [[], [1], [2], [], [], []]
+        ],
+        "expectation": [null, null, null, 2, 2, false]
+    }
+]
