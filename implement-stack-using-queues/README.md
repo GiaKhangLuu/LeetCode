@@ -1,1 +1,1 @@
-![image solution](./sol_01.jpeg)
+![image solution](./sol.PNG)

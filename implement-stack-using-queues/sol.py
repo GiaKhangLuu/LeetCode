@@ -55,7 +55,6 @@ class Solution:
         def empty(self):
             return True if len(self.main_queue) == 0 else False
 
-
     def test(self, inp, expectation):
 
         commands, values = inp[0], inp[1]
