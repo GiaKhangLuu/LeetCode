@@ -1,0 +1,9 @@
+[
+    {
+        "input": [
+            ["MyQueue", "push", "push", "peek", "pop", "empty"],
+            [[], [1], [2], [], [], []]
+        ],
+        "expectation": [null, null, null, 1, 1, false]
+    }
+]
