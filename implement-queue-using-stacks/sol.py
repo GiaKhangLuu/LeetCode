@@ -17,12 +17,12 @@ class Solution:
         def push(self, x):
             self.main_stack.append(x)
             self.length += 1
+            self.debug('push')
             return None
 
-        def swap(self):
-            temp = self.assistant_stack
-            self.assistant_stack = self.main_stack
-            self.main_stack = temp
+        def comeback(self):
+            while len(self.assistant_stack) > 0:
+                self.main_stack.append(self.assistant_stack.pop())
 
         def pop(self):
             self.length -= 1
@@ -31,7 +31,8 @@ class Solution:
                 self.assistant_stack.append(value)
             last_value = self.main_stack.pop()
 
-            self.swap()
+            self.comeback()
+            self.debug('pop')
 
             return last_value
         
@@ -41,7 +42,8 @@ class Solution:
         def empty(self):
             return True if self.length == 0 else False
 
-        def debug(self):
+        def debug(self, func_type):
+            print(func_type)
             print("Main stack: ", self.main_stack)
             print("Assistant stack: ", self.assistant_stack)
 
