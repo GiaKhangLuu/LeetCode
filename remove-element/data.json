@@ -1,0 +1,18 @@
+[
+    {
+        "input": {"nums": [3, 2, 2, 3], "val": 3 },
+        "expectation": { "k": 2, "nums": [2, 2]}
+    },
+    {
+        "input": { "num": [0,1,2,2,3,0,4,2], "val": 2 },
+        "output": { "k": 5, "nums": [0, 1, 4, 0, 3]}
+    },
+    {
+        "input": { "num": [2], "val": 3 },
+        "output": { "k": 1, "nums": [2]}
+    },
+    {
+        "input": { "num": [2, 2, 3], "val": 2 },
+        "output": { "k": 1, "nums": [3]}
+    }
+]
