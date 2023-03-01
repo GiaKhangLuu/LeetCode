@@ -1,0 +1,27 @@
+[
+    {
+        "input": [1, 2, 3, null, null, 4, null, null, 2, 4, null, null, 3, null, null],
+        "expectation": true
+    },
+    {
+        "input": [1, 2, null, 3, null, null, 2, 3, null, null, null ],
+        "output": true
+    },
+    {
+        "input": [1],
+        "output": true
+    },
+    {
+        "input": [1, 2, null, 3, null, null, 2, null, 3, null, null],
+        "output": false
+    },
+    {
+        "input": [2, 3, 4, null, null, 5, 8, null, null, 9, null, null, 3, 5, null, null, 4, 8, null, null, 9, null, null],
+        "output": false
+    },
+    {
+        "input": [2, 3, 4, null, null, 5, 8, null, null, 9, null, null, 3, 5, 9, null, null, 8, null, null, 4],
+        "output": true
+    }
+
+]
