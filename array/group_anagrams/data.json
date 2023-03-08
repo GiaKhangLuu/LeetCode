@@ -1,0 +1,14 @@
+[
+    {
+        "input": ["eat","tea","tan","ate","nat","bat"],
+        "expectation": [["eat","tea","ate"],["tan","nat"],["bat"]]
+    },
+    {
+        "input": [""],
+        "expectation": [[""]]
+    },
+    {
+        "input": ["a"],
+        "expectation": [["a"]]
+    }
+]
