@@ -1,0 +1,18 @@
+[
+    {
+        "input": 1,
+        "expectation": "1"
+    },
+    {
+        "input": 4,
+        "expectation": "1211"
+    },
+    {
+        "input": 5,
+        "expectation": "111221"
+    },
+    {
+        "input": 6,
+        "expectation": "312211"
+    }
+]
