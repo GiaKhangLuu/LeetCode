@@ -41,4 +41,3 @@ for i in range(len(test_case)):
     print('>>>>>>>>>>> Output ', output)
     print('>>>>>>>>>>> Expected ', expected)
     print('>>>>>>>>>>> Result: {}{}{}'.format(color, result, '\033[0m'))
-

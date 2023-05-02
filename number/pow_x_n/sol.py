@@ -77,17 +77,3 @@ if __name__ == '__main__':
     # Terminating the process
     print('{}Timeout{}'.format(color_code['red'], color_code['end']))
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-

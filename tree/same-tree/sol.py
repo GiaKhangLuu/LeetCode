@@ -69,3 +69,4 @@ if __name__ == '__main__':
 
         print('>>>>>>>>>>> Test case {} <<<<<<<<<<'.format(inp))
         solution.test(solution.isSameTree, inp, expectation)
+

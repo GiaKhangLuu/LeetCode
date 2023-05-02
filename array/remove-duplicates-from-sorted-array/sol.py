@@ -6,7 +6,7 @@ color_code = {'green': '\033[92m',
               'end': '\033[0m'}
 
 class Solution:
-
+    
     def removeDuplicates_khang_code(self, inp):
         l, k = 0, 1
 
@@ -48,4 +48,4 @@ if __name__ == '__main__':
         inp, expectation = list(test_case[i].values())
 
         print('>>>>>>>>>>> Test case {} <<<<<<<<<<'.format(inp))
-        solution.test(solution.check_ref, inp, expectation)
+        solution.test(solution.removeDuplicates_khang_code, inp, expectation)
