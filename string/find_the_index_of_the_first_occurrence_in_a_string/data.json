@@ -1,0 +1,23 @@
+[
+    {
+        "input": {
+					"haystack": "sadbutsad", 
+					"needle": "sad"
+        },
+        "output": 0
+    },
+    {
+        "input": {
+          "haystack": "leetcode",
+          "needle": "leeto"
+        },
+        "output": -1
+    },
+    {
+        "input": {
+          "haystack": "iloveyou",
+          "needle": "you"
+        },
+        "output": 5
+    }
+]
