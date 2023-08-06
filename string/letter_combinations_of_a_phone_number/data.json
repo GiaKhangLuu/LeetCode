@@ -1,0 +1,18 @@
+[
+    {
+        "input": "23",
+        "output": ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+    },
+    {
+        "input": "",
+        "output": []
+    },
+    {
+        "input": "2",
+        "output": ["a", "b", "c"]
+    },
+    {
+        "input": "234",
+        "output": ["adg","adh","adi","bdg","bdh","bdi","cdg","cdh","cdi","aeg","aeh","aei","beg","beh","bei","ceg","ceh","cei","afg","afh","afi","bfg","bfh","bfi","cfg","cfh","cfi"]
+    }
+]
