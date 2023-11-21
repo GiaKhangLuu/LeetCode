@@ -1,0 +1,23 @@
+[
+    {
+        "input": {
+            "dividend": 10,
+            "divisor": 3
+        }, 
+        "output": 3
+    },
+    {
+        "input": {
+            "dividend": 7,
+            "divisor": -3
+        },
+        "output": -2
+    },
+    {
+        "input": {
+            "dividend": 123123131,
+            "divisor": 3
+        },
+        "output": 41041043
+    }
+]
