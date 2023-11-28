@@ -1,0 +1,1 @@
+<img width="565" alt="topic" src="./topic_product_of_arr_except_self.png">
