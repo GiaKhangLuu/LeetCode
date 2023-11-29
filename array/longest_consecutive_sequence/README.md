@@ -1,0 +1,1 @@
+<img width="565" alt="topic" src="./topic_longest_consecutive_sequence.png">
