@@ -1,0 +1,27 @@
+[
+    {
+        "input": {
+            "commands": ["MinStack","push","push","push","getMin","pop","top","getMin"],
+            "args": [[],[-2],[0],[-3],[],[],[],[]]
+        },
+        "output": [null,null,null,null,-3,null,0,-2]
+    },
+    {
+        "input": {
+            "commands": ["MinStack","push","push","push","getMin","pop","top","getMin"],
+            "args": [[],[-2],[0],[1],[],[],[],[]]
+        },
+        "output": [null,null,null,null,-2,null,0,-2]
+    },
+    {
+        "input": {
+            "commands": ["MinStack","push","push","push","getMin","pop","getMin"],
+            "args": [[],[0],[1],[0],[],[],[]]
+        },
+        "output": [null,null,null,null,0,null,0]
+    }
+]
+
+
+
+
