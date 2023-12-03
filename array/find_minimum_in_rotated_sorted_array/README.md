@@ -1,0 +1,1 @@
+<img width="565" alt="topic" src="topic_find_min_in_rotated_sorted_arr.png">
