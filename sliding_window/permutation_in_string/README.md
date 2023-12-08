@@ -1,0 +1,1 @@
+<img width="565" alt="topic" src="./topic_permutation_in_string.png">
