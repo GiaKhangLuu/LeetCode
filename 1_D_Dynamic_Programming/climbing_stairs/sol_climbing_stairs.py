@@ -5,6 +5,7 @@ color_code = {'green': '\033[92m',
               'end': '\033[0m'}
 
 class Solution:
+    # Bottom_up approach
     def climbStairs_bottom_up(self, n):
         if n == 1:
             return 1
