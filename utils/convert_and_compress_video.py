@@ -24,11 +24,8 @@ def process_video_in_thread(input_file, output_file, new_width):
     thread.start()
 
 if __name__ == "__main__":
-    input_file_1 = '/Users/giakhang/Downloads/RPReplay_Final1703215763.MP4'
-    output_file_1 = "/Users/giakhang/dev/LeetCode/bit_manipulation/missing_number/missing_number_math_video.mp4"
-    input_file_2 = '/Users/giakhang/Downloads/RPReplay_Final1703215680.MP4'
-    output_file_2 = "/Users/giakhang/dev/LeetCode/bit_manipulation/missing_number/missing_number_bit_manipulation_video.mp4"
+    input_file_1 = '/Users/giakhang/Downloads/RPReplay_Final1703228113.MP4'
+    output_file_1 = "/Users/giakhang/dev/LeetCode/math_and_geometry/plus_one/plus_one_video.mp4"
     new_width = 720
 
     process_video_in_thread(input_file_1, output_file_1, new_width)
-    process_video_in_thread(input_file_2, output_file_2, new_width)
