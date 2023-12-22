@@ -1,0 +1,26 @@
+[
+    {
+        "input": {
+            "n": 19
+        },
+        "output": true
+    },
+    {
+        "input": {
+            "n": 2
+        },
+        "output": false
+    },
+    {
+        "input": {
+            "n": 1
+        },
+        "output": true
+    },
+    {
+        "input": {
+            "n": 112239
+        },
+        "output": true
+    }
+]
