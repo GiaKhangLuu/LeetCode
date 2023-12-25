@@ -24,8 +24,14 @@ def process_video_in_thread(input_file, output_file, new_width):
     thread.start()
 
 if __name__ == "__main__":
-    input_file_1 = '/Users/giakhang/Downloads/RPReplay_Final1703228113.MP4'
-    output_file_1 = "/Users/giakhang/dev/LeetCode/math_and_geometry/plus_one/plus_one_video.mp4"
+    #input_file_1 = '/Users/giakhang/Downloads/RPReplay_Final1703517412.MP4'
+    #output_file_1 = "/Users/giakhang/dev/LeetCode/linked_list/find_the_duplicate_number/proof_starting_point_and_metting_point_meet_at_duplicate.mp4"
+    #new_width = 640
+
+    #process_video_in_thread(input_file_1, output_file_1, new_width)
+
+    input_file_2 = '/Users/giakhang/Downloads/RPReplay_Final1703516090.MP4'
+    output_file_2 = "/Users/giakhang/dev/LeetCode/linked_list/find_the_duplicate_number/find_the_duplicate_num_video.mp4"
     new_width = 720
 
-    process_video_in_thread(input_file_1, output_file_1, new_width)
+    process_video_in_thread(input_file_2, output_file_2, new_width)
