@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
     #process_video_in_thread(input_file_1, output_file_1, new_width)
 
-    input_file_2 = '/Users/giakhang/Downloads/RPReplay_Final1703516090.MP4'
-    output_file_2 = "/Users/giakhang/dev/LeetCode/linked_list/find_the_duplicate_number/find_the_duplicate_num_video.mp4"
-    new_width = 720
+    input_file_2 = '/Users/giakhang/dev/LeetCode/linked_list/lru_cache/RPReplay_Final1704444288.MP4'
+    output_file_2 = '/Users/giakhang/dev/LeetCode/linked_list/lru_cache/lru_cache_sol.mp4'
+    new_width = 640
 
     process_video_in_thread(input_file_2, output_file_2, new_width)
