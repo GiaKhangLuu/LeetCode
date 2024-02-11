@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
     #process_video_in_thread(input_file_1, output_file_1, new_width)
 
-    input_file_2 = '/Users/giakhang/Downloads/RPReplay_Final1707625077.mp4'
-    output_file_2 = '/Users/giakhang/dev/LeetCode/tree/validate_binary_search_tree/vd_validate_bst.mp4'
+    input_file_2 = '/Users/giakhang/Downloads/RPReplay_Final1707640789.mp4'
+    output_file_2 = '/Users/giakhang/dev/LeetCode/tree/kth_smallest_element_in_a_bst/vd_kth_smallest_ele_in_a_bst.mp4'
     new_width = 640
 
     process_video_in_thread(input_file_2, output_file_2, new_width)
