@@ -1,0 +1,20 @@
+[
+    {
+        "input": {
+            "columnNumber": 1
+        },
+        "output": "A"
+    },
+    {
+        "input": {
+            "columnNumber": 28
+        },
+        "output": "AB"
+    },
+    {
+        "input": {
+            "columnNumber": 701
+        },
+        "output": "ZY"
+    }
+]
