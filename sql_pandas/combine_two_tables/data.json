@@ -1,0 +1,26 @@
+[
+    {
+        "input": {
+            "person_table": {
+                "column_names": ["personId", "lastName", "firstName"],
+                "personId": [1, 2],
+                "lastName": ["Wang", "Alice"],
+                "firstName": ["Allen", "Bob"]
+            },
+            "address_table": {
+                "column_names": ["addressId", "personId", "city", "state"],
+                "addressId": [1, 2],
+                "personId": [2, 3],
+                "city": ["New York City", "Leetcode"],
+                "state": ["New York", "California"]
+            }
+        },
+        "output": {
+            "column_names": ["firstName", "lastName", "city", "state"],
+            "firstName": ["Allen", "Bob"],
+            "lastName": ["Wang", "Alice"],
+            "city": [null, "New York City"],
+            "state": [null, "New York"]
+        }
+    }
+]
